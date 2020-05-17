@@ -1,0 +1,15 @@
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+
+# .Vscode Library Information
+*.vscode
+
+# Файл readme.txt
+readme.txt
+
+# Каталог с текстами для сайта
+/assets/texts/**/*
+/assets/icons/link/**/*
