@@ -73,7 +73,7 @@ body {
   margin: 0 auto;
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: #212529;
   text-align: left;
@@ -11069,8 +11069,8 @@ a.text-dark:focus {
 }
 
 .portfolio-modal .portfolio-modal-title {
-  font-size: 1.25rem;
-  line-height: 1.5rem;
+  font-size: 1.45rem;
+  line-height: 1.75rem;
 }
 
 .portfolio-modal .close {
@@ -11204,6 +11204,9 @@ button.bg-primary:focus {
 }
 
 /* Projects-Portfolio Article */
+.portfolio .portfolio-item {
+  letter-spacing: 0.012rem;
+}
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
@@ -11211,6 +11214,7 @@ button.bg-primary:focus {
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(199, 230, 224, 0.9);
+
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -11609,6 +11613,26 @@ button.bg-primary:focus {
   padding-bottom: 50px;
 }
 
+.letter-sp-1 {
+  letter-spacing: .01rem;
+}
+
+.letter-sp-2 {
+  letter-spacing: .02rem;
+}
+
+.letter-sp-3 {
+  letter-spacing: .03rem;
+}
+
+.letter-sp-4 {
+  letter-spacing: .04rem;
+}
+
+.letter-sp-5 {
+  letter-spacing: .05rem;
+}
+
 .scroll-to-top a {
   width: 3.5rem;
   height: 3.5rem;
@@ -11616,10 +11640,27 @@ button.bg-primary:focus {
   line-height: 3.1rem;
 }
 
-/* Modal */
+/* Projects - Modal */
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-clip: padding-box;
+  border: 0 solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.1rem;
+}
 
-@media (min-width: 992px) {}
-.portfolio-modal .portfolio-modal-title {
+.portfolio-modal .close {
   font-size: 2rem;
-  line-height: 2.5rem;
+  color: #fcc601 !important;
+}
+
+.modal-content .divider-custom .divider-custom-line {
+  background-color: #c7e6e0;
+  border-color: #c7e6e0 !important;
+}
+
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
 }
