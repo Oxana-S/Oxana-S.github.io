@@ -11161,12 +11161,23 @@ form .row:first-child .floating-label-form-group {
   z-index: 2;
 }
 
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+  }
+}
+
 .navbar__logo img {
   margin-top: -8px;
 }
 
 .navbar-nav {
   font-weight: 400;
+}
+
+.bg-secondary {
+  background-color: rgba(44, 62, 80, 0.9) !important;
 }
 
 .intro__video {
@@ -11248,32 +11259,32 @@ button.bg-primary:focus {
 
 .skills__body {
   position: relative;
-  min-height: 2345px;
+  min-height: 2530px;
   max-height: 100vh;
   overflow: hidden;
 }
 
 @media (min-width: 380px) {
   .skills__body {
-    min-height: 2215px;
+    min-height: 2450px;
   }
 }
 
 @media (min-width: 576px) {
   .skills__body {
-    min-height: 2175px;
+    min-height: 2340px;
   }
 }
 
 @media (min-width: 768px) {
   .skills__body {
-    min-height: 1195px;
+    min-height: 1360px;
   }
 }
 
 @media (min-width: 992px) {
   .skills__body {
-    min-height: 1100px;
+    min-height: 1220px;
   }
 }
 
@@ -11306,7 +11317,7 @@ button.bg-primary:focus {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 4350px;
+  min-width: 4530px;
   max-width: 100%;
   height: auto;
   z-index: 1;
@@ -11320,7 +11331,7 @@ button.bg-primary:focus {
 
 @media (min-width: 768px) {
   .skills__video .video__item {
-    min-width: 2130px;
+    min-width: 2420px;
   }
 }
 
@@ -11724,6 +11735,7 @@ button.bg-primary:focus {
 .modal-body__icon:hover {
   background-color: #fcc60190;
 }
- .modal-body__icon a {
+
+.modal-body__icon a {
   color: #7f3e1e;
 }
