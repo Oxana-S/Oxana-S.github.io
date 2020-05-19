@@ -11721,6 +11721,9 @@ button.bg-primary:focus {
   color: #7f3e1e;
 }
 
-.modal-body__icon a {
+.modal-body__icon:hover {
+  background-color: #fcc60190;
+}
+ .modal-body__icon a {
   color: #7f3e1e;
 }
