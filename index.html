@@ -10,8 +10,11 @@
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap"
         rel="stylesheet">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
@@ -89,7 +92,8 @@
     <article class="page-section portfolio" id="portfolio">
         <div class="container">
             <!-- Project Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+            <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-secondary mb-0">Projects
+            </h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -121,8 +125,10 @@
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <!-- <i class="fas fa-plus fa-3x"></i> -->
+                                <img src="assets/icons/plus-white.svg" width="150" />
+                            </div>
                         </div>
                         <img src="assets/img/portfolio/lp-img-2.jpg" class="card-img-top" alt="project-1" width="100%">
                         <div class="card-body">
@@ -226,7 +232,8 @@
             <div class="skills__content">
                 <div class="container">
                     <!-- About Section Heading-->
-                    <h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2>
+                    <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-white">Skills
+                    </h2>
                     <!-- Icon Divider-->
                     <div class="divider-custom divider-light">
                         <div class="divider-custom-line"></div>
@@ -236,144 +243,156 @@
                     <!-- Skills Sections Content-->
                     <div class="row">
                         <!-- Progress Skills Section -->
-                        <section class="code-skills col-md-4 padding-t-30 padding-b-15">
-                            <div class="section-title m-bottom-15">
-                                <p class="lead">Code:</p>
-                            </div>
-                            <ul class="skill-list">
-                                <li>
-                                    <p>HTML,&nbsp; CSS,&nbsp; Sass/SCSS,&nbsp; JS,&nbsp; Bootstrap,&nbsp; Git,&nbsp;
-                                        Github
-                                    </p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:65%;"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>Gulp,&nbsp; JS,&nbsp; Nodejs,&nbsp; PHP:</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:20%;"></div>
-                                    </div>
-                                </li>
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                            <div class="skills-code__block">
+                                <div class="section-title m-bottom-15">
+                                    <p class="lead border-b-1">Code:</p>
+                                </div>
+                                <ul class="skill-list">
+                                    <li>
+                                        <p>HTML,&nbsp; CSS,&nbsp; Sass/SCSS,&nbsp; JS,&nbsp; Bootstrap,&nbsp; Git,&nbsp;
+                                            Github
+                                        </p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:65%;"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Gulp,&nbsp; JS,&nbsp; Nodejs,&nbsp; PHP:</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:20%;"></div>
+                                        </div>
+                                    </li>
 
-                            </ul>
-                        </section>
-                        <section class="web-site-skills col-md-4 padding-t-30 padding-b-15">
-                            <div class="section-title m-bottom-15">
-                                <p class="lead">Site builders, CMS:</p>
+                                </ul>
                             </div>
-                            <ul class="skill-list">
-                                <li>
-                                    <p>Website builders:<br> Bitrix24,&nbsp; Tilda</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:80%;"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>WordPress</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:30%;"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>Drupal</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:15%;"></div>
-                                    </div>
-                                </li>
-                            </ul>
                         </section>
-                        <section class="design-skills col-md-4 padding-t-30 padding-b-15">
-                            <div class="section-title m-bottom-15">
-                                <p class="lead">Design:</p>
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                            <div class="skills-code__block">
+                                <div class="section-title m-bottom-15">
+                                    <p class="lead border-b-1">Site Builders, CMS:</p>
+                                </div>
+                                <ul class="skill-list">
+                                    <li>
+                                        <p>Website Builders:<br> Bitrix24,&nbsp; Tilda</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:80%;"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>WordPress</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:30%;"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Drupal</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:15%;"></div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                            <ul class="skill-list">
-                                <li>
-                                    <p>Figma,&nbsp;&nbsp;Adobe Photoshop, &nbsp;&nbsp;Adobe XD</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:65%;"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>Sketch</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:35%;"></div>
-                                    </div>
-                                </li>
+                        </section>
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                            <div class="skills-code__block">
+                                <div class="section-title m-bottom-15">
+                                    <p class="lead border-b-1">Design:</p>
+                                </div>
+                                <ul class="skill-list">
+                                    <li>
+                                        <p>Figma,&nbsp;&nbsp;Adobe Photoshop, &nbsp;&nbsp;Adobe XD</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:65%;"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Sketch</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:35%;"></div>
+                                        </div>
+                                    </li>
 
-                            </ul>
+                                </ul>
+                            </div>
                         </section>
 
-                        <section class="crm-skills col-md-4 padding-t-30 padding-b-15">
-                            <div class="section-title m-bottom-15">
-                                <p class="lead">CRM,&nbsp; Hosting,&nbsp; Admin:</p>
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                            <div class="skills-code__block">
+                                <div class="section-title m-bottom-15">
+                                    <p class="lead border-b-1">CRM,&nbsp; Hosting,&nbsp; Admin:</p>
+                                </div>
+                                <ul class="skill-list">
+                                    <li>
+                                        <p>CRM:<br> Bitrix24,&nbsp; AmoCRM</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:65%;"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Hosting sites</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:75%;"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Remote site admin</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:35%;"></div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                            <ul class="skill-list">
-                                <li>
-                                    <p>CRM:<br> Bitri24,&nbsp; AmoCRM</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:65%;"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>Hosting sites</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:75%;"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>Remote site admin</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:35%;"></div>
-                                    </div>
-                                </li>
-                            </ul>
                         </section>
-                        <section class="anime-skills col-md-4 padding-t-30 padding-b-15">
-                            <div class="section-title m-bottom-15">
-                                <p class="lead">Video Montage and Animation:</p>
-                            </div>
-                            <ul class="skill-list">
-                                <li>
-                                    <p>Adobe Premiere Pro,&nbsp; Camtasia Studio</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:80%;"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>Adobe After Effects,&nbsp; Google Web Designer</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:30%;"></div>
-                                    </div>
-                                </li>
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                            <div class="skills-code__block">
+                                <div class="section-title m-bottom-15">
+                                    <p class="lead border-b-1">Video-Montage Animation:</p>
+                                </div>
+                                <ul class="skill-list">
+                                    <li>
+                                        <p>Adobe Premiere Pro,&nbsp; Camtasia Studio</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:80%;"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Adobe After Effects,&nbsp; Google Web Designer</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:30%;"></div>
+                                        </div>
+                                    </li>
 
-                            </ul>
+                                </ul>
+                            </div>
                         </section>
-                        <section class="social-skills col-md-4 padding-t-30 padding-b-15">
-                            <div class="section-title m-bottom-15">
-                                <p class="lead">Social Network:</p>
-                            </div>
-                            <ul class="skill-list">
-                                <li>
-                                    <p>Widgets with Facebook and Instagram integration</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:65%;"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>Widgets with Viber integration</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:65%;"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>Widgets with Telegram integration</p>
-                                    <div class="progress">
-                                        <div class="percentage" style="width:65%;"></div>
-                                    </div>
-                                </li>
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                            <div class="skills-code__block">
+                                <div class="section-title m-bottom-15">
+                                    <p class="lead border-b-1">Social Network:</p>
+                                </div>
+                                <ul class="skill-list">
+                                    <li>
+                                        <p>Widgets with Facebook and Instagram integration</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:65%;"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Widgets with Viber integration</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:65%;"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Widgets with Telegram integration</p>
+                                        <div class="progress">
+                                            <div class="percentage" style="width:65%;"></div>
+                                        </div>
+                                    </li>
 
-                            </ul>
+                                </ul>
+                            </div>
                         </section>
                         <!-- End Progress Skills Section -->
                     </div>
@@ -392,7 +411,7 @@
 
         <div class="container">
             <!-- Services Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-dark">Services</h2>
+            <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-dark">Services</h2>
             <!-- Icon Divider-->
             <div class="divider-custom divider-dark">
                 <div class="divider-custom-line"></div>
@@ -541,7 +560,8 @@
             <div class="about__content">
                 <div class="container">
                     <!-- About Section Heading-->
-                    <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                    <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-white">About
+                    </h2>
                     <!-- Icon Divider-->
                     <div class="divider-custom divider-light">
                         <div class="divider-custom-line"></div>
@@ -592,7 +612,8 @@
     <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <h2 class=" page-section-heading font-weight-lighter text-center text-uppercase text-secondary mb-0">Contact
+                Me</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -742,41 +763,79 @@
                 <div class="modal-body ">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8">
+                            <div class="col-lg-10">
                                 <!-- Portfolio Modal - Title-->
                                 <h2
                                     class="portfolio-modal-title text-center text-light-blu text-capitalize letter-sp-1 mb-0">
-                                    Company "Proshin&Co".</h2>
+                                    "Proshin&Co" Company .</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line "></div>
                                     <div class="divider-custom-icon"><i class="fas fa-star text-light-blu"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <p class="text-center text-white text-uppercase letter-sp-5 font-weight-bolder">Law firm, provides legal services.</p>
+                                <p class="text-center text-white text-uppercase letter-sp-5 font-weight-bolder">Law
+                                    firm, provides legal services.</p>
                                 <!-- Portfolio Modal - Text-->
                                 <div class="row text-white letter-sp-3">
-                                    <div class="col-12 col-lg-6">
-                                        <p>Project Objectives:<br>
-                                            - to allow Company to capture the lids;<br>
-                                            - convenience of registration of new clients.</p>
-                                        <p>The customer’s tasks:<br>
-                                            - design landing page</p>
+                                    <div class="col-12 col-md-6">
+                                        <p><span class="font-weight-bolder border-b-2">Project Objectives:</span><br>
+                                            <span class="text-yellow">&#10003;</span>&nbsp;to allow Company to capture
+                                            the lids <br>
+                                            <span class="text-yellow">&#10003;</span>&nbsp;and convenience of
+                                            registration of new clients.<br>
+                                            <span class="text-yellow">&#10003;</span>&nbsp;Design landing page.</p>
                                     </div>
-                                    <div class="col-12 col-lg-6">
-                                        <p>The result of the work:<br>
-                                            - the meaning package is designed;<br>
-                                            - texts written;<br>
-                                            - designed the site on Figma;<br>
-                                            - cross-browser & adaptive website coding from Figma to HTML.
+                                    <div class="col-12 col-md-6">
+                                        <p><span class="font-weight-bolder border-b-2">The Result of the Work:</span><br>
+                                            <span class="text-yellow">&#10003;</span>&nbsp;the meaning package is
+                                            designed;<br>
+                                            <span class="text-yellow">&#10003;</span>&nbsp;texts written;<br>
+                                            <span class="text-yellow">&#10003;</span>&nbsp;designed the site on
+                                            Figma;<br>
+                                            <span class="text-yellow">&#10003;</span>&nbsp;&nbsp;cross-browser &
+                                            adaptive website coding from Figma to HTML.
                                         </p>
+                                        <p class="mb-0">Link to site:</p>
+                                        <a
+                                            href="https://www.figma.com/file/H5QiM9g1BZ8yYZqSrIiDYW/Untitled?node-id=2%3A2" target="_blank">
+                                            <p>Link to design layout:<i class="fas fa-link ml-2"></i></p>
+                                        </a>
                                     </div>
-
+                                    <div class="col-12 col-md-6">
+                                        <p> Original language: <span class="font-italic font-weight-light">Russian</span>.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <p class="mb-0">Skills used in this project:</p>
+                                        <div class="modal-body__icons d-flex">
+                                            <div
+                                                class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
+                                                <a href="#skills" target="_blank"><i class="fab fa-figma"></i></a>
+                                            </div>
+                                            <div class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
+                                                <a href="#skills" target="_blank"><i class="fas fa-spell-check"></i></a>
+                                            </div>
+                                            <div
+                                                class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
+                                                <a href="#skills" target="_blank"><i class="fas fa-code"></i></a>
+                                            </div>
+                                            <div
+                                                class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
+                                                <a href="#skills" target="_blank"><i class="fab fa-css3"></i></a>
+                                            </div>
+                                            <div
+                                                class="modal-body__icon d-flex justify-content-center align-items-center">
+                                                <a href="#skills" target="_blank"><i class="fab fa-js-square"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-4" src="assets/img/portfolio/lp-img-2.1.jpg" alt="" />
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                        class="fas fa-times fa-fw"></i>Close Window</button>
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/lp-img-2.1.jpg" alt="" />
+                                <div class="text-center">
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                            class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
                             </div>
                         </div>
                     </div>
