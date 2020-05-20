@@ -67,15 +67,15 @@
   
   })(jQuery); // End of use strict
 
-// ПОЯВЛЕНИЕ ЛОГО ПРИ ПРОКРУТКЕ 
-// при прокрутке окна (window)
+// Scrolling Logo Show
+// on scroll (window)
 $(window).scroll(function () {
-  // если пользователь прокрутил страницу более чем на 350px
+  // if the user has scrolled the page by more than 350px
   if ($(this).scrollTop() > 350) {
-    // то сделать кнопку #logo-top видимой
+    // then make the #logo-top button visible
     $('#logo-top').fadeIn();
   }
-  // иначе скрыть кнопку #logo-top
+  // otherwise hide the #logo-top button
   else {
     $('#logo-top').fadeOut();
   }
