@@ -10,6 +10,5 @@
 # Файл readme.txt
 readme.txt
 
-# Каталог с текстами для сайта
-/assets/texts/**/*
-/assets/icons/link/**/*
+# Catalog with draft source for site
+/#source/**/*.*

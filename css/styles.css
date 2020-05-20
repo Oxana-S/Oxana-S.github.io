@@ -11225,6 +11225,7 @@ button.bg-primary:focus {
 /* Projects-Portfolio Article */
 .portfolio .portfolio-item {
   letter-spacing: 0.012rem;
+  background-color: rgba(199, 230, 224, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
