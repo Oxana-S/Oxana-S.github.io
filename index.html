@@ -16,8 +16,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap"
         rel="stylesheet">
+    <!-- Animation aos.css -->
+    <link rel="stylesheet" href="/css/aos.css" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/styles.min.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -35,7 +37,8 @@
 
                 <div class="navbar__logo">
                     <a class="navbar-brand js-scroll-trigger" href="#page-top">Sergio Yarkov</a>
-                    <img id="logo-top" src="assets/img/avatar-bee-2.svg" alt="logo-bee" width="40">
+                    <img id="logo-top" style="display: none;" src=" assets/img/avatar-bee-2.svg" alt="logo-bee"
+                        width="40">
                 </div>
 
                 <button
@@ -72,17 +75,14 @@
         <header class="masthead  text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avatar-bee-2.svg" alt="" />
+                <img class="masthead-avatar mb-5" src="assets/img/avatar-bee-2.svg" alt="avatar-bee" />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase text-black-70 mb-0">Let's work together</h1>
-                <!-- Icon Divider-->
-                <!-- <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div> -->
+                <h1 class="masthead-heading text-uppercase text-black-70 mb-0" data-aos="fade-down"
+                    data-aos-duration="1500" data-aos-anchor-Place="top-top" data-aos-offset="0">Let's work together
+                </h1>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-bold text-black-70 mt-4 mb-0">HTML coding - Web Design -
+                <p class="masthead-subheading font-weight-bold text-black-70 mt-4 mb-0" data-aos="fade-up"
+                    data-aos-duration="1500" data-aos-delay="350" data-aos-offset="0">HTML coding - Web Design -
                     Startups</p>
             </div>
         </header>
@@ -92,19 +92,23 @@
     <article class="page-section portfolio" id="portfolio">
         <div class="container">
             <!-- Project Section Heading-->
-            <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-secondary mb-0">Projects
-            </h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
+            <div class="page-section-head" data-aos="fade-down" data-aos-duration="800">
+                <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-secondary mb-0">
+                    Projects
+                </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
             </div>
             <!-- Project Grid Items-->
             <div class="row">
                 <!-- Project Item 1-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
@@ -113,7 +117,7 @@
                         </div>
                         <img src="assets/img/portfolio/lp-img-1.jpg" class="card-img-top" alt="project-1">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Design-Code-Hosting</h5>
+                            <h5 class="card-title text-center ">Design-Code-Hosting</h5>
                             <p class="card-text text-center">
                                 <span class="font-weight-bolder">Show band "Led Force".</span><br>
                                 Dance show with unique LED equipment.
@@ -123,7 +127,9 @@
                 </div>
                 <!-- Project Item 2-->
                 <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2"
+                        data-aos="fade-up" data-aos-duration="800"
+                        data-aos-delay="350">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
@@ -143,7 +149,9 @@
                 </div>
                 <!-- Project Item 3-->
                 <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3"
+                        data-aos="fade-up" data-aos-duration="800"
+                        data-aos-delay="350">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
@@ -162,7 +170,8 @@
                 </div>
                 <!-- Project Item 4-->
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
@@ -182,7 +191,8 @@
                 </div>
                 <!-- Project Item 5-->
                 <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
@@ -201,7 +211,8 @@
                 </div>
                 <!-- Project Item 6-->
                 <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
@@ -234,19 +245,23 @@
             <div class="skills__content">
                 <div class="container">
                     <!-- About Section Heading-->
-                    <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-white">Skills
-                    </h2>
-                    <!-- Icon Divider-->
-                    <div class="divider-custom divider-light">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                        <div class="divider-custom-line"></div>
+                    <div  data-aos="fade-down" data-aos-duration="800">
+                        <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-white">
+                            Skills
+                        </h2>
+                        <!-- Icon Divider-->
+                        <div class="divider-custom divider-light">
+                            <div class="divider-custom-line"></div>
+                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                            <div class="divider-custom-line"></div>
+                        </div>
                     </div>
                     <!-- Skills Sections Content-->
                     <div class="row">
                         <!-- Progress Skills Section -->
                         <!-- Code, HTML, JS, Node, PHP -->
-                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15" data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back">
                             <div class="skills-code__block">
                                 <div class="section-title m-bottom-15">
                                     <p class="lead border-b-1">Code:</p>
@@ -288,7 +303,8 @@
                             </div>
                         </section>
                         <!-- Site Builder -->
-                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15" data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back">
                             <div class="skills-code__block">
                                 <div class="section-title m-bottom-15">
                                     <p class="lead border-b-1">Site Builders, CMS:</p>
@@ -342,7 +358,8 @@
                             </div>
                         </section>
                         <!-- Design -->
-                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15" data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back">
                             <div class="skills-code__block">
                                 <div class="section-title m-bottom-15">
                                     <p class="lead border-b-1">Design:</p>
@@ -380,7 +397,8 @@
                             </div>
                         </section>
                         <!-- CRM, Hosting -->
-                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15" data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back">
                             <div class="skills-code__block">
                                 <div class="section-title m-bottom-15">
                                     <p class="lead border-b-1">CRM,&nbsp; Hosting,&nbsp; Admin:</p>
@@ -432,7 +450,8 @@
                             </div>
                         </section>
                         <!-- Video, Animation -->
-                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15" data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back">
                             <div class="skills-code__block">
                                 <div class="section-title m-bottom-15">
                                     <p class="lead border-b-1">Video, Animation:</p>
@@ -470,7 +489,8 @@
                             </div>
                         </section>
                         <!-- Social Network -->
-                        <section class="skills-code col-md-4 padding-t-30 padding-b-15">
+                        <section class="skills-code col-md-4 padding-t-30 padding-b-15" data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back">
                             <div class="skills-code__block">
                                 <div class="section-title m-bottom-15">
                                     <p class="lead border-b-1">Social Network:</p>
@@ -525,7 +545,8 @@
                     </div>
 
                     <!-- Skills Section Button-->
-                    <div class="text-center m-top-65 ">
+                    <div class="text-center m-top-65" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-offset="60">
                         <a class="btn btn-xl btn-outline-light" href="#contact">
                             <i class="fas fa-download mr-2"></i>
                             Contacts
@@ -539,13 +560,17 @@
     <article class="page-section text-white mb-0" id="services">
         <div class="container">
             <!-- Services Section Heading-->
-            <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-dark">Services</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-dark">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
+
+            <div data-aos="fade-down" data-aos-duration="800">
+                <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-dark">Services</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-dark">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
             </div>
+
             <h5 class="text-dark text-center m-bottom-65">I can offer you the following service for your sites</h5>
             <!-- Services Section Content-->
             <div class="row">
@@ -553,7 +578,7 @@
                     <div class="row">
                         <!-- a service -->
                         <div class="col-12 col-sm-6 col-md-6 col-xl-3">
-                            <div class="service w-100 text-center">
+                            <div class="service w-100 text-center" data-aos="zoom-out">
                                 <div class="service__icon">
                                     <span style="font-size: 3rem; color: Tomato;">
                                         <i class="fas fa-code"></i>
@@ -568,7 +593,7 @@
                         </div>
                         <!-- a service -->
                         <div class="col-12 col-sm-6 col-md-6 col-xl-3">
-                            <div class="service w-100 text-center">
+                            <div class="service w-100 text-center" data-aos="zoom-out">
                                 <div class="service__icon">
                                     <span style="font-size: 3rem; color: Tomato;">
                                         <i class="fas fa-palette"></i>
@@ -583,7 +608,7 @@
                         </div>
                         <!-- a service -->
                         <div class="col-12 col-sm-6 col-md-6 col-xl-3">
-                            <div class="service w-100 text-center">
+                            <div class="service w-100 text-center" data-aos="zoom-out">
                                 <div class="service__icon">
                                     <span style="font-size: 3rem; color: Tomato;">
                                         <i class="fas fa-server"></i>
@@ -597,7 +622,7 @@
                         </div>
                         <!-- a service -->
                         <div class="col-12 col-sm-6 col-md-6 col-xl-3">
-                            <div class="service w-100 text-center">
+                            <div class="service w-100 text-center" data-aos="zoom-out">
                                 <div class="service__icon">
                                     <span style="font-size: 3rem; color: Tomato;">
                                         <i class="fas fa-spell-check"></i>
@@ -614,7 +639,7 @@
 
                         <!-- a service -->
                         <div class="col-12 col-sm-6 col-md-6 col-xl-3">
-                            <div class="service w-100 text-center">
+                            <div class="service w-100 text-center" data-aos="zoom-out">
                                 <div class="service__icon">
                                     <span style="font-size: 3rem; color: Tomato;">
                                         <i class="fas fa-code"></i>
@@ -629,7 +654,7 @@
                         </div>
                         <!-- a service -->
                         <div class="col-12 col-sm-6 col-md-6 col-xl-3">
-                            <div class="service w-100 text-center">
+                            <div class="service w-100 text-center" data-aos="zoom-out">
                                 <div class="service__icon">
                                     <span style="font-size: 3rem; color: Tomato;">
                                         <i class="far fa-object-group"></i>
@@ -643,7 +668,7 @@
                         </div>
                         <!-- a service -->
                         <div class="col-12 col-sm-6 col-md-6 col-xl-3">
-                            <div class="service w-100 text-center">
+                            <div class="service w-100 text-center" data-aos="zoom-out">
                                 <div class="service__icon">
                                     <span style="font-size: 3rem; color: Tomato;">
                                         <i class="fas fa-headset"></i>
@@ -656,7 +681,7 @@
                         </div>
                         <!-- a service -->
                         <div class="col-12 col-sm-6 col-md-6 col-xl-3">
-                            <div class="service w-100 bg-yellow-50 text-center">
+                            <div class="service w-100 bg-yellow-50 text-center" data-aos="zoom-out">
                                 <div class="service__icon">
                                     <span style="font-size: 3rem;">
                                         <i class="fab fa-figma"></i>
@@ -688,28 +713,33 @@
             <div class="about__content">
                 <div class="container">
                     <!-- About Section Heading-->
-                    <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-white">About
-                    </h2>
-                    <!-- Icon Divider-->
-                    <div class="divider-custom divider-light">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                        <div class="divider-custom-line"></div>
+                    <div  data-aos="fade-down" data-aos-duration="800">
+                        <h2 class="page-section-heading font-weight-lighter text-center text-uppercase text-white">About
+                        </h2>
+                        <!-- Icon Divider-->
+                        <div class="divider-custom divider-light">
+                            <div class="divider-custom-line"></div>
+                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                            <div class="divider-custom-line"></div>
+                        </div>
                     </div>
                     <!-- About Section Content-->
-                    <div class="row">
-                        <div class="col-lg-12 d-flex justify-content-center">
+                    <div class="row" >
+                        <div class="col-lg-12 d-flex justify-content-center" data-aos="fade" data-aos-duration="1100">
                             <p class="lead text-center font-weight-bolder">Hi Everyone,</p>
                         </div>
                         <div class="col-12 mr-auto">
-                            <p class="lead">I’m a website developer.
+                            <p class="lead" data-aos="fade" data-aos-duration="1100">I’m a website developer.
                             </p>
-                            <p class="lead">I am committed, focused and prioritize on achieving your business goals.
+                            <p class="lead" data-aos="fade" data-aos-duration="1100">I am committed, focused and
+                                prioritize on achieving your business goals.
                                 In a previous life, I was a salesman, a marketer, a financial and operating director, an
                                 entrepreneur. So I have a unique
                                 point of view on website creation that other developers do not possess. </p>
-                            <p class="lead">You can see my skills in the "Skills" section above.</p>
-                            <p class="lead">I can offer you the following service for your sites:<br>
+                            <p class="lead" data-aos="fade" data-aos-duration="1100">You can see my skills in the
+                                "Skills" section above.</p>
+                            <p class="lead" data-aos="fade" data-aos-duration="1100">I can offer you the following
+                                service for your sites:<br>
                                 <span class="text-yellow">&#10003;</span>&nbsp;prepare a design layout;<br>
                                 <span class="text-yellow">&#10003;</span>&nbsp;prepare texts, pictures, mount video;<br>
                                 <span class="text-yellow">&#10003;</span>&nbsp;prepare HTML/CSS/JS code ;<br>
@@ -722,14 +752,17 @@
                                 constructor;<br>
                                 <span class="text-yellow">&#10003;</span>&nbsp;integrate your site and CRM Bitrix24 ...
                             </p>
-                            <p class="lead"> <span class="text-yellow">&#10003;&#10003;</span>&nbsp;I’m also designing
+                            <p class="lead" data-aos="fade" data-aos-duration="1100"> <span
+                                    class="text-yellow">&#10003;&#10003;</span>&nbsp;I’m also designing
                                 projects
                                 for turnkey, from start to
                                 finish.</p>
-                            <p class="lead">I’m always striving to improve and grow my skills to become a complete
+                            <p class="lead" data-aos="fade" data-aos-duration="1100">I’m always striving to improve and
+                                grow my skills to become a complete
                                 front-end and back-end developer.</p>
-                            <p class="lead mb-0">With respect,</p>
-                            <p class="lead"><span class="font-italic font-weight-bolder">Sergio</span></p>
+                            <p class="lead mb-0" data-aos="fade" data-aos-duration="1100">With respect,</p>
+                            <p class="lead" data-aos="fade" data-aos-duration="1100"><span
+                                    class="font-italic font-weight-bolder">Sergio</span></p>
                         </div>
                     </div>
                 </div>
@@ -740,20 +773,25 @@
     <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
-            <h2 class=" page-section-heading font-weight-lighter text-center text-uppercase text-secondary mb-0">Contact
-                Me</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
+            
+            <div data-aos="fade-down" data-aos-duration="800">
+                <h2 class=" page-section-heading font-weight-lighter text-center text-uppercase text-secondary mb-0">Contact
+                    Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <h5 class="text-center">I’ll be glad to cooperate with you</h5>
             </div>
-            <h5 class="text-center">I’ll be glad to cooperate with you</h5>
+
             <!-- Contact Section Form-->
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate" data-aos="fade"
+                        data-aos-duration="3000">
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                 <label>Name</label><input class="form-control" id="name" type="text"
@@ -816,7 +854,7 @@
                         <i class="fab fa-fw fa-github"></i>
                     </a>
                     <a class="btn btn-outline-light btn-social mx-1" href="#">
-                        <i class="fab fa-fw fa-linkedin-in"></i>
+                        <i class="fab fa-skype"></i>
                     </a>
                     <a class="btn btn-outline-light btn-social mx-1" href="#">
                         <i class="fab fa-fw fa-whatsapp"></i>
@@ -825,10 +863,17 @@
                 <!-- Footer About Me Text-->
                 <div class="col-lg-4">
                     <h4 class="text-uppercase mb-4">Sergio Yarkov</h4>
-                    <img src="assets/img/avatar-bee-2.svg" alt="my-logo" width="100">
+                    <a href="#">
+                        <img src="assets/img/avatar-bee-2.svg" alt="my-logo" width="100" data-aos="flip-right"
+                            data-aos-duration="2000">
+                    </a>
                     <p class="footer__email lead"><span>channel.my.honey@gmail.com</span></p>
-                    <p class="phone__email lead"><span>+43 664 75503580</span></p>
-                    <p class="lead mb-0"> <a href="#contact">Start work together</a></p>
+                    <p class="phone__email lead">
+                        <span>
+                            <a href="tel:+4366475503580" style="text-decoration: none;">+43 664 75503580</a>
+                        </span>
+                    </p>
+                    <p class="lead  mb-0"> <a href="#contact" style="text-decoration: none;">Start work together</a></p>
                 </div>
             </div>
         </div>
@@ -911,7 +956,7 @@
                                             optimization.
 
                                         </p>
-                                        <a href="http://ledforce.best/">
+                                        <a href="http://ledforce.best/" target="_blank">
                                             <p class="mb-0">Link to site:<i class="fas fa-link ml-2"></i></p>
                                         </a>
                                         <a href="https://www.figma.com/file/oQHaBxInSJddMKXxiWmIE8/portfolio-1?node-id=0%3A1"
@@ -931,42 +976,42 @@
                                         <p class="mb-0">Skills used in this project:</p>
                                         <div class="modal-body__icons d-flex flex-wrap">
                                             <div
-                                                class="modal-body__icon d-flex justify-content-center align-items-center mr-2 mb-2">
-                                                <a href="#skills"  title="Made Design on Figma">
+                                                class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
+                                                <a href="#skills" title="Made Design on Figma">
                                                     <i class="fab fa-figma" style="width: 30px;"></i>
                                                 </a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills"  title="Text write">
+                                                <a href="#skills" title="Text write">
                                                     <i class="fas fa-spell-check" style="width: 30px;"></i>
                                                 </a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills"  title="Made Video">
+                                                <a href="#skills" title="Made Video">
                                                     <i class="fas fa-film" style="width: 30px;"></i>
                                                 </a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills"  title="Code, HTML"><i
-                                                        class="fas fa-code" style="width: 30px;"></i></a>
+                                                <a href="#skills" title="Code, HTML"><i class="fas fa-code"
+                                                        style="width: 30px;"></i></a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills"  title="CSS"><i
-                                                        class="fab fa-css3" style="width: 30px;"></i></a>
+                                                <a href="#skills" title="CSS"><i class="fab fa-css3"
+                                                        style="width: 30px;"></i></a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills"  title="JS">
+                                                <a href="#skills" title="JS">
                                                     <i class="fab fa-js-square" style="width: 30px;"></i>
                                                 </a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2 d-inline-block mr-2">
-                                                <a href="#skills"  title="Tilda">
+                                                <a href="#skills" title="Tilda">
                                                     <i class="far fa-object-group" style="width: 30px;"></i>
                                                 </a>
                                             </div>
@@ -1089,13 +1134,11 @@
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills" title="Code, HTML"><i
-                                                        class="fas fa-code"></i></a>
+                                                <a href="#skills" title="Code, HTML"><i class="fas fa-code"></i></a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills" title="CSS"><i
-                                                        class="fab fa-css3"></i></a>
+                                                <a href="#skills" title="CSS"><i class="fab fa-css3"></i></a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
@@ -1228,13 +1271,11 @@
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills" title="Code, HTML"><i
-                                                        class="fas fa-code"></i></a>
+                                                <a href="#skills" title="Code, HTML"><i class="fas fa-code"></i></a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills" title="CSS"><i
-                                                        class="fab fa-css3"></i></a>
+                                                <a href="#skills" title="CSS"><i class="fab fa-css3"></i></a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
@@ -1244,13 +1285,13 @@
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2 d-inline-block mr-2">
-                                                <a href="#skills"  title="Tilda">
+                                                <a href="#skills" title="Tilda">
                                                     <i class="far fa-object-group" style="width: 30px;"></i>
                                                 </a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2 d-inline-block mr-2">
-                                                <a href="#skills"  title="Online Advertising">
+                                                <a href="#skills" title="Online Advertising">
                                                     <i class="fas fa-paint-brush" style="width: 30px;"></i>
                                                 </a>
                                             </div>
@@ -1531,7 +1572,7 @@
                                         </a>
                                     </div>
                                     <div class="col-12 col-md-6">
-                                        <p> Original language: 
+                                        <p> Original language:
                                             <span class="font-italic font-weight-light">Russian</span>.
                                         </p>
                                         <p>Project time:
@@ -1556,13 +1597,11 @@
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills" title="Code, HTML"><i
-                                                        class="fas fa-code"></i></a>
+                                                <a href="#skills" title="Code, HTML"><i class="fas fa-code"></i></a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
-                                                <a href="#skills" title="CSS"><i
-                                                        class="fab fa-css3"></i></a>
+                                                <a href="#skills" title="CSS"><i class="fab fa-css3"></i></a>
                                             </div>
                                             <div
                                                 class="modal-body__icon d-flex justify-content-center align-items-center mr-2">
@@ -1607,6 +1646,30 @@
     <!-- Contact form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
     <script src="assets/mail/contact_me.js"></script>
+    <!-- Animation AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+        });
+    </script>
 
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>

@@ -2674,7 +2674,7 @@ textarea.form-control.is-invalid {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.5s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11170,6 +11170,7 @@ form .row:first-child .floating-label-form-group {
 
 .navbar__logo img {
   margin-top: -8px;
+
 }
 
 .navbar-nav {
@@ -11232,7 +11233,7 @@ button.bg-primary:focus {
   position: absolute;
   top: 0;
   left: 0;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
   opacity: 0;
   background-color: rgba(199, 230, 224, 0.9);
 
@@ -11725,15 +11726,19 @@ button.bg-primary:focus {
   }
 }
 
-.modal-body__icon {
+.modal-body__icon a {
   width: 30px;
   height: 30px;
   border-radius: 100%;
   background-color: #fcc601;
-  color: #7f3e1e;
+  color: #7f3e1e!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
-.modal-body__icon:hover {
+.modal-body__icon a:hover {
   background-color: #fcc60190;
 }
 

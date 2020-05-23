@@ -67,16 +67,36 @@
   
   })(jQuery); // End of use strict
 
-// Scrolling Logo Show
-// on scroll (window)
+// Scrolling 
+// Scroll selector - #avatar-top (window)
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+
+    // if the user has scrolled the page by more than 350px
+    if ($(this).scrollTop() > 350) {
+      // then make the #logo-top button visible
+      $('#logo-top').fadeIn();
+    }
+    // otherwise hide the #logo-top button
+    else {
+      $('#logo-top').fadeOut();
+      // $("#logo-top").attr('style', 'display: none');
+    }
+  });
+});
+// Scroll selector -(sample) (window)
+
 $(window).scroll(function () {
+
   // if the user has scrolled the page by more than 350px
   if ($(this).scrollTop() > 350) {
     // then make the #logo-top button visible
-    $('#logo-top').fadeIn();
+    $('sample').fadeIn();
   }
   // otherwise hide the #logo-top button
   else {
-    $('#logo-top').fadeOut();
+    // $('#logo-top')
+    $("sample").fadeOut();
   }
 });
