@@ -85,6 +85,7 @@ $(document).ready(function () {
     }
   });
 });
+
 // Scroll selector -(sample) (window)
 
 $(window).scroll(function () {
@@ -100,3 +101,5 @@ $(window).scroll(function () {
     $("sample").fadeOut();
   }
 });
+// Изменение размера дя textarea
+$("textarea").resizable();

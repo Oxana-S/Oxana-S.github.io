@@ -11,4 +11,11 @@
 readme.txt
 
 # Catalog with draft source for site
-/#source/**/*.*
+/#source
+
+# map files
+styles.min.css.map
+
+# SCSS files
+/sass
+
