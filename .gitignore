@@ -1,0 +1,19 @@
+
+
+# .Vscode Library Information
+*.vscode
+
+# Файл readme.txt
+readme.txt
+
+# Catalog with draft source for site
+/#source
+
+# mail (not used on github-pages)
+/assets/mail/**/*.*
+# map files
+styles.min.css.map
+
+# SCSS files
+/sass/**/*.*
+
