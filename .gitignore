@@ -14,10 +14,10 @@ readme.txt
 /#source
 
 # mail (not used on github-pages)
-/mail/**/*
+/mail/**/*.*
 # map files
 styles.min.css.map
 
 # SCSS files
-/sass/**/*
+/sass/**/*.*
 
