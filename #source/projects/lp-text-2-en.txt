@@ -1,0 +1,30 @@
+﻿Customer: 
+Company "Proshin&co".
+Law firm, provides legal services 
+both to legal and natural persons.
+
+Page Creation Objectives:
+- to allow Company to capture the lids 
+- convenience of registration of new clients.
+
+The customer’s tasks are as follows:
+- design landing page
+
+The result of the work:
+- the meaning package is designed
+- texts written
+- designed the site on Figma
+- cross-browser & adaptive website coding from Figma to HTML
+
+Typography:
+Alegreya Medium 55
+Alegreya Medium 45
+Alegreya Medium 35
+Alegreya Medium 30.
+
+Colours:
+- main #0559A7
+- add  #FFFFFF
+
+Language of the site: Russian.
+

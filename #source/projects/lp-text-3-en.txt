@@ -1,0 +1,36 @@
+﻿Customer: 
+Company "Wind".
+Construction company. Engaged in construction and repair 
+of varying degrees of difficulty.
+
+The objectives are:
+- develop simple and clear design in light tones
+- first screen to make bright
+- the site should have 1-2 color accents
+- think through text and meaning blocks
+- to build a site in the Tilda constructor
+- make CEO promotion.
+
+What did I do:
+- worked out the meaning package
+- created a prototype site
+- with the customer selected beige shades with a focus on yellow
+- prepared Offer by 4U method
+- designed the site on Figma
+- wrote texts
+- cross-browser & adaptive website coding from Figma to HTML
+- made adaptive layout on the Tilda constructor 
+- has connected the domain to the site
+- connected the analyst system
+- has performed CEO optimization.
+
+Typography:
+Montserrat Medium 55
+Montserrat Medium 45
+Montserrat Light 35.
+
+Colours:
+- accent 1 #FFE483 
+- accent 2 #634C2F.
+
+Language of the site: Russian.

@@ -1,0 +1,33 @@
+﻿Customer: 
+Company "Save Beautiful".
+Beauty salon. Provides cosmetic services.
+
+The objectives of the site are:
+- possibility of online orders of the company’s services
+- ease of registration of new clients
+- the ability to capture the lids. 
+
+Tasks set:
+- design landing page 
+- to assemble it in the Tilda constructor
+- make CEO promotion.
+
+The result of the work:
+- the meaning package is designed
+- texts written
+- designed the site on Figma
+- cross-browser & adaptive website coding from Figma to HTML
+- creation of a poster for promotion on social media
+- targeted advertising was set up
+
+Typography:
+Montserrat Semibold 50
+Montserrat Medium 50
+Montserrat Regular 35.
+
+Colours:
+- main #6417AO
+- add  #ABW5E9
+- add  #A5ODC2.
+
+Language of the site: Russian.

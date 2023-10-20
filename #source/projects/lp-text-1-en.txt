@@ -1,0 +1,36 @@
+﻿Customer: "Led Force" Program Show.
+Dance show with unique LED equipment.
+
+The objectives are:
+- to develop bright design in dark tones
+- first screen to make under LED tones
+- the site should have specific color accents
+- to work out the text and the meaning blocks
+- to build and run a site
+
+
+What did I do:
+- worked out the meaning package
+- created a prototype site
+- prepared Offer by 4U method
+- designed the site
+- wrote texts
+- made cross-browser & adaptive website coding from Figma to HTML
+- integrated CRM Bitrix24
+- connected feedback widgets
+- connected the social networks
+- hosting
+- connected domain 
+- connected the analyst system
+- has performed CEO optimization.
+
+Typography:
+Montserrat Medium 55
+Montserrat Medium 45
+Montserrat Light 35.
+
+Colours:
+- accent 1 #FFE483 
+accent 2 #634C2F.
+
+Language of the site: Russian.

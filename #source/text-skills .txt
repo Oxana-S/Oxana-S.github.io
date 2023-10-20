@@ -1,0 +1,45 @@
+
+# Short Summary Skills with progress:
+
+Code:
+* прогресс 65%
+# HTML, css, sass, Bootstrap 
+# git, github
+прогресс 20%
+# gulp, js, node.js, PHP 
+
+
+Website Builders:
+* прогресс 80%
+# Bitrix24, Tilda 
+
+CMS:
+* прогресс 30%
+# WordPress,
+* прогресс 20% 
+# Drupal
+
+Design:
+* прогресс 65%
+# Figma, Adobe Photoshop, Adobe XD, 
+* прогресс 25%
+# Sketch
+
+CRM:
+* прогресс 65%
+# Bitrix24, AmoCRM
+
+Hosting and Remote Site Administration:
+прогресс 50%
+
+Video Montages:
+* прогресс 65%
+# Adobe Premiere Pro, Camtasia Studio
+
+Animation:
+* прогресс 50%
+# Adobe After Effects, Google Web Designer 
+
+Social Network:
+* прогресс 50%
+# Social widgets by Facebook, Instagram

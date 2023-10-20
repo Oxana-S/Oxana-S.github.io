@@ -1,0 +1,20 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#412439",
+    "titleBar.activeBackground": "#20121c",
+    "titleBar.activeForeground": "#e7e7e7",
+    "activityBar.activeBackground": "#412439",
+    "activityBar.activeBorder": "#5a6739",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#5a6739",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#20121c",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#412439",
+    "titleBar.inactiveBackground": "#20121c99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#20121c",
+  "cSpell.words": ["Yarkov"]
+}
