@@ -59,32 +59,28 @@ input:focus {
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #00000090
-;
+  color: #00000090;
   font-size: 14px;
   font-weight: 300;
 }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #00000090
-;
+  color: #00000090;
   font-size: 14px;
   font-weight: 300;
 }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #00000090
-;
+  color: #00000090;
   font-size: 14px;
   font-weight: 300;
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #00000090
-;
+  color: #00000090;
   font-size: 14px;
   font-weight: 300;
 }
@@ -134,7 +130,8 @@ button.crm-webform-submit-button {
   user-select: none;
   line-height: 0.1;
   border-radius: 0.5rem;
-  transition: color 0.5s ease-in-out,
+  transition:
+    color 0.5s ease-in-out,
     background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out,
@@ -164,8 +161,8 @@ button.crm-webform-submit-button:active {
 }
 
 /*  ВСПЛЫВАЮЩИЕ ПРЕДУПРЕЖДЕНИЯ О НЕОБХОДИМОСТИ ЗАПОЛНИТЬ ПОЛЕ <input> */
-.crm-webform-error .crm-webform-input~.crm-webform-tooltip-bottom-right,
-.crm-webform-error .crm-webform-textarea textarea~.crm-webform-tooltip-bottom-right {
+.crm-webform-error .crm-webform-input ~ .crm-webform-tooltip-bottom-right,
+.crm-webform-error .crm-webform-textarea textarea ~ .crm-webform-tooltip-bottom-right {
   top: 1px;
   right: 0;
   left: auto;
@@ -182,7 +179,6 @@ button.crm-webform-submit-button:active {
 }
 
 @media (min-width: 576px) {
-
   /* CSS для: 576px <= ширины <= 767px */
   button.crm-webform-submit-button {
     padding: 2.1rem 6rem;
