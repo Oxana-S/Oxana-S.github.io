@@ -12129,3 +12129,10 @@ button.crm-webform-submit-button:hover {
   border-color: #e0b001 !important;
   color: #000 !important;
 }
+
+/* Hide the form header block: "Feedback" title, description text
+   and the divider line underneath. The whole container is wrapped
+   in .b24-form-header — hiding it removes all three at once. */
+.b24-form-header {
+  display: none !important;
+}
