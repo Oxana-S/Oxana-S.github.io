@@ -12074,3 +12074,17 @@ button.crm-webform-submit-button:active {
 .bx-crm-widget-form-config-sidebar-chat-container {
   display: none;
 }
+
+/* Hide "Powered by Bitrix24" signature on the inline contact form.
+   Covers known class variants used by different versions of loader_4.js. */
+.b24-form-sign,
+.b24-form-padding-side-default .b24-form-sign,
+.b24-form a[href*="bitrix24"],
+.b24-form-wrapper a[href*="bitrix24"],
+.b24-form-wrapper [class*="sign"],
+.b24-form-wrapper [class*="copyright"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
