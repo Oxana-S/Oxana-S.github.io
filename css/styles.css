@@ -12096,9 +12096,10 @@ button.crm-webform-submit-button:active {
   border-bottom: none !important;
 }
 
-/* Recolor the Bitrix24 Send button to the site yellow (#fcc601) and
-   shrink it to half the form width, centered. Height/padding/font
-   are left untouched per request. */
+/* Style the Bitrix24 Send button to match the site's "Contacts"
+   button (.btn.btn-xl in the Skills section): same padding,
+   font-size and border-radius. Width auto-sizes by content,
+   centered via text-align on the parent. Yellow brand fill kept. */
 .b24-form-wrapper .b24-form-btn-container,
 .b24-form-wrapper .b24-form-content .b24-form-btn-container {
   text-align: center !important;
@@ -12109,9 +12110,14 @@ button.crm-webform-submit-button:active {
 button.crm-webform-submit-button {
   background: #fcc601 !important;
   background-color: #fcc601 !important;
-  border-color: #fcc601 !important;
+  border: 1px solid #fcc601 !important;
+  border-radius: 0.25rem !important;
   color: #000 !important;
-  width: 50% !important;
+  padding: 1rem 6rem !important;
+  font-size: 1.25rem !important;
+  line-height: 1.5 !important;
+  width: auto !important;
+  height: auto !important;
   display: inline-block !important;
 }
 
