@@ -12088,9 +12088,3 @@ button.crm-webform-submit-button:active {
   height: 0 !important;
   overflow: hidden !important;
 }
-
-/* Hide the blue decorative bottom border line under the Send button. */
-.b24-form-border-bottom {
-  display: none !important;
-}
-
