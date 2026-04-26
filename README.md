@@ -10,4 +10,6 @@ https://oxana-s.github.io/.
 
 I'd be happy to cooperate.  
 
-*Bitrix24:* https://hispeed.bitrix24.com/crm/deal/kanban/
+**Bitrix24:**
+Portal on Bitrex24. 
+https://hispeed.bitrix24.com/crm/deal/kanban/
