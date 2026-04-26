@@ -12088,3 +12088,10 @@ button.crm-webform-submit-button:active {
   height: 0 !important;
   overflow: hidden !important;
 }
+
+/* Remove the 5px blue border-bottom that the .b24-form-border-bottom
+   modifier adds to the form wrapper. Targets the property only,
+   so the form itself stays visible. */
+.b24-form-wrapper.b24-form-border-bottom {
+  border-bottom: none !important;
+}
