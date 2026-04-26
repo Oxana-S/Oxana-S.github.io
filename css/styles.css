@@ -12095,3 +12095,31 @@ button.crm-webform-submit-button:active {
 .b24-form-wrapper.b24-form-border-bottom {
   border-bottom: none !important;
 }
+
+/* Recolor the Bitrix24 Send button to the site yellow (#fcc601) and
+   shrink it to half the form width, centered. Height/padding/font
+   are left untouched per request. */
+.b24-form-wrapper .b24-form-btn-container,
+.b24-form-wrapper .b24-form-content .b24-form-btn-container {
+  text-align: center !important;
+}
+
+.b24-form-wrapper .b24-form-btn,
+.b24-form-wrapper button.b24-form-btn,
+button.crm-webform-submit-button {
+  background: #fcc601 !important;
+  background-color: #fcc601 !important;
+  border-color: #fcc601 !important;
+  color: #000 !important;
+  width: 50% !important;
+  display: inline-block !important;
+}
+
+.b24-form-wrapper .b24-form-btn:hover,
+.b24-form-wrapper button.b24-form-btn:hover,
+button.crm-webform-submit-button:hover {
+  background: #e0b001 !important;
+  background-color: #e0b001 !important;
+  border-color: #e0b001 !important;
+  color: #000 !important;
+}
